@@ -1,0 +1,6 @@
+{
+  "name": "Papelaria Encantada - Link da Bio & Personalizados",
+  "description": "Papelaria personalizada e lembrancinhas de luxo para festas infantis e eventos em Campos dos Goytacazes - RJ com envio para todo o Brasil. Caixa Milk, Caixa Bala, Topos de Bolo, Adesivos e Kits.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
