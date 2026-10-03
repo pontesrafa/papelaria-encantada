@@ -19,7 +19,7 @@ export const Navbar: React.FC = () => {
   };
 
   return (
-    <header className="sticky top-0 z-40 bg-white/95 backdrop-blur-md border-b border-stone-200/80">
+    <header className="sticky top-0 z-40 bg-[#FFF0F5]/90 backdrop-blur-md border-b border-pink-200/60 shadow-xs">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 h-20 sm:h-24 flex items-center justify-between">
         
         {/* Brand Zone with larger prominent logo */}
@@ -32,7 +32,6 @@ export const Navbar: React.FC = () => {
             src={LOGO_URL}
             alt="Papelaria Encantada"
             className="w-14 h-14 sm:w-16 sm:h-16 rounded-full object-cover border-2 border-pink-100 shadow-sm group-hover:scale-105 transition-transform shrink-0"
-            referrerPolicy="no-referrer"
           />
           <div className="flex flex-col">
             <span className="text-xl sm:text-2xl font-bold text-stone-900 font-brand tracking-tight leading-tight">

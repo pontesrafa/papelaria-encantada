@@ -17,7 +17,7 @@ export const ProductCatalog: React.FC<ProductCatalogProps> = ({ onSelectProduct 
   };
 
   return (
-    <section id="modelos" className="py-16 bg-white border-y border-stone-200/80">
+    <section id="modelos" className="py-20 bg-[#FFF5F8]/80 border-y border-pink-200/70">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         
         {/* Section Header */}
@@ -39,15 +39,14 @@ export const ProductCatalog: React.FC<ProductCatalogProps> = ({ onSelectProduct 
             <article
               key={product.id}
               onClick={() => onSelectProduct(product)}
-              className="group bg-[#FAF8F9] rounded-2xl overflow-hidden border border-stone-200/70 hover:border-pink-300 hover:shadow-md transition-all duration-200 cursor-pointer flex flex-col justify-between"
+              className="group bg-white rounded-2xl overflow-hidden border border-pink-200/90 hover:border-pink-400 hover:shadow-lg transition-all duration-200 cursor-pointer flex flex-col justify-between"
             >
               {/* Image Frame */}
               <div>
-                <div className="relative aspect-4/3 w-full bg-stone-100 overflow-hidden">
+                <div className="relative aspect-4/3 w-full bg-pink-50 overflow-hidden">
                   <img
                     src={product.image}
                     alt={product.name}
-                    referrerPolicy="no-referrer"
                     className="w-full h-full object-cover group-hover:scale-102 transition-transform duration-300"
                   />
                 </div>
@@ -68,7 +67,7 @@ export const ProductCatalog: React.FC<ProductCatalogProps> = ({ onSelectProduct 
 
               {/* Card Footer Actions */}
               <div className="p-4 pt-0">
-                <div className="pt-3 border-t border-stone-200/60 flex items-center justify-between gap-2">
+                <div className="pt-3 border-t border-pink-100 flex items-center justify-between gap-2">
                   <span className="text-xs text-stone-500 group-hover:text-stone-900 transition-colors inline-flex items-center gap-0.5">
                     Detalhes <ArrowUpRight className="w-3 h-3" />
                   </span>

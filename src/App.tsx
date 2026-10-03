@@ -13,7 +13,7 @@ export default function App() {
   const [selectedProduct, setSelectedProduct] = useState<ProductItem | null>(null);
 
   return (
-    <div className="min-h-screen bg-[#FAFAFA] text-stone-900 flex flex-col selection:bg-pink-100 selection:text-pink-900">
+    <div className="min-h-screen bg-linear-to-b from-[#FFF0F5] via-[#FFF5F8] to-[#FFE8F0] text-stone-900 flex flex-col selection:bg-pink-200 selection:text-pink-900">
       {/* Clean Navbar */}
       <Navbar />
 

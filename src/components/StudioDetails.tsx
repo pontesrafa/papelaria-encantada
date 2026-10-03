@@ -4,7 +4,7 @@ import { STORE_PHONE, STORE_PHONE_DISPLAY, LOCATION_CITY } from '../data/product
 
 export const StudioDetails: React.FC = () => {
   return (
-    <section id="sobre" className="py-20 bg-[#FAF9F9]">
+    <section id="sobre" className="py-20 bg-[#FFF0F5]/60">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 space-y-16">
         
         {/* Editorial Craftsmanship Strip */}
@@ -22,21 +22,21 @@ export const StudioDetails: React.FC = () => {
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            <div className="p-6 rounded-2xl bg-white border border-stone-200/60 space-y-2">
+            <div className="p-6 rounded-2xl bg-white border border-pink-100 shadow-xs space-y-2">
               <span className="text-xs font-bold text-stone-900">01. Papéis Nobres 180g</span>
               <p className="text-xs text-stone-600 leading-relaxed">
                 Utilizamos papel fosco de alta gramatura que não reflete a luz dos flashes nas fotos e garante cores vivas e durabilidade para a mesa.
               </p>
             </div>
 
-            <div className="p-6 rounded-2xl bg-white border border-stone-200/60 space-y-2">
+            <div className="p-6 rounded-2xl bg-white border border-pink-100 shadow-xs space-y-2">
               <span className="text-xs font-bold text-stone-900">02. Laços Duplos & Pedrarias</span>
               <p className="text-xs text-stone-600 leading-relaxed">
                 Laços encorpados com fita de cetim acetinada, chatons perolados e pontos de strass aplicados peça por peça com precisão.
               </p>
             </div>
 
-            <div className="p-6 rounded-2xl bg-white border border-stone-200/60 space-y-2">
+            <div className="p-6 rounded-2xl bg-white border border-pink-100 shadow-xs space-y-2">
               <span className="text-xs font-bold text-stone-900">03. Arte Aprovada Antes</span>
               <p className="text-xs text-stone-600 leading-relaxed">
                 Você recebe a prévia digital personalizada com o nome e a idade do aniversariante no WhatsApp para aprovar antes de qualquer impressão.
@@ -46,7 +46,7 @@ export const StudioDetails: React.FC = () => {
         </div>
 
         {/* Calm Process & Shipping (2 clean cards) */}
-        <div className="pt-8 border-t border-stone-200/60">
+        <div className="pt-8 border-t border-pink-200/60">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
             
             {/* Local Studio */}

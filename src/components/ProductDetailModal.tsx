@@ -49,7 +49,6 @@ export const ProductDetailModal: React.FC<ProductDetailModalProps> = ({
           <img
             src={product.image}
             alt={product.name}
-            referrerPolicy="no-referrer"
             className="w-full h-full object-cover"
           />
           <button

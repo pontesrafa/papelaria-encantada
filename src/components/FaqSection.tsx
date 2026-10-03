@@ -10,7 +10,7 @@ export const FaqSection: React.FC = () => {
   };
 
   return (
-    <section id="duvidas" className="py-20 bg-white">
+    <section id="duvidas" className="py-20 bg-[#FFF5F8]/70 border-t border-pink-200/50">
       <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
         
         {/* Header */}
@@ -24,7 +24,7 @@ export const FaqSection: React.FC = () => {
         </div>
 
         {/* Clean Accordion */}
-        <div className="divide-y divide-stone-200">
+        <div className="divide-y divide-pink-100 bg-white rounded-2xl p-6 sm:p-8 border border-pink-100 shadow-xs">
           {FREQUENT_QUESTIONS.map((item, idx) => {
             const isOpen = openIndex === idx;
             return (

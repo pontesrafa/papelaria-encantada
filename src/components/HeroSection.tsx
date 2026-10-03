@@ -78,7 +78,6 @@ export const HeroSection: React.FC = () => {
                 src={HERO_FEATURED_IMAGE}
                 alt="Caixa Milk de Luxo tema Magali produzida pela Papelaria Encantada"
                 className="w-full h-full object-cover"
-                referrerPolicy="no-referrer"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/40 via-transparent to-transparent" />
               <div className="absolute bottom-3 left-4 right-4 text-white">
