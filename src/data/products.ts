@@ -1,7 +1,15 @@
 import { ProductItem } from '../types';
 
+// Importação direta para o Vite empacotar no bundle de produção
+import logoImg from '../assets/images/logo_exato_papelaria_encantada_1790979186315.jpg';
+import caixaMagaliImg from '../assets/images/caixa_milk_magali_real_1790978722015.jpg';
+import kitAnjinhoImg from '../assets/images/kit_anjinho_batizado_real_1790978733785.jpg';
+import topoFlamingoImg from '../assets/images/topo_bolo_flamingo_real_1790978746924.jpg';
+import kitUrsinhosImg from '../assets/images/kit_ursinhos_carinhosos_real_1790978757196.jpg';
+
 // Logo oficial exato
-export const LOGO_URL = '/src/assets/images/logo_exato_papelaria_encantada_1790979186315.jpg';
+export const LOGO_URL = logoImg;
+export const HERO_FEATURED_IMAGE = caixaMagaliImg;
 
 // WhatsApp e Instagram atualizados
 export const STORE_PHONE = '5522998453648';
@@ -19,7 +27,7 @@ export const PRODUCTS_CATALOG: ProductItem[] = [
     tagline: 'Laço duplo de cetim vermelho, strass e aplique 3D',
     description: 'Caixa Milk luxuosa com acabamento impecável: telhado listrado verde, laço duplo de cetim acetinado vermelho com ponteiras de manta de strass dourado, pérolas nos pezinhos e aplique tridimensional em camadas da personagem.',
     minQuantity: 5,
-    image: '/src/assets/images/caixa_milk_magali_real_1790978722015.jpg',
+    image: caixaMagaliImg,
     badge: 'Destaque Luxo',
     dimensions: '14cm (A) x 6,5cm (L) x 6,5cm (C)',
     paperType: 'Offset Fosco 180g (cores vibrantes, toque aveludado e zero reflexo)',
@@ -38,7 +46,7 @@ export const PRODUCTS_CATALOG: ProductItem[] = [
     tagline: 'Caixa Milk, Caixa Cone e Maletinha em azul bebê e pérolas',
     description: 'Conjunto delicado em tons de azul bebê com estampa arabesco e renda: Caixa Milk com laço de cetim e pérola, Caixa Cone Anjinho com coração dourado e Caixa Maletinha com alça rendada perolada.',
     minQuantity: 5,
-    image: '/src/assets/images/kit_anjinho_batizado_real_1790978733785.jpg',
+    image: kitAnjinhoImg,
     badge: 'Mais Pedido',
     dimensions: 'Tamanhos padronizados para compor a mesa de doces',
     paperType: 'Papel Offset 180g de alta alvura e corte eletrônico de alta precisão',
@@ -57,7 +65,7 @@ export const PRODUCTS_CATALOG: ProductItem[] = [
     tagline: 'Scrap luxuoso com flores, flamingo e letreiro em relevo',
     description: 'Topo de bolo trabalhado em camadas de papéis especiais com letreiro temático em sobreposição, flamingo com asas em 3D, coqueiro tridimensional, cadeira de praia e flores tropicais de hibisco com miolo de pérola e strass.',
     minQuantity: 1,
-    image: '/src/assets/images/topo_bolo_flamingo_real_1790978746924.jpg',
+    image: topoFlamingoImg,
     badge: 'Scrap Luxo',
     dimensions: 'Projetado sob medida para o aro do bolo (15cm a 25cm)',
     paperType: 'Papéis colorplus de alta gramatura 180g/240g + papel perolizado e texturizado',
@@ -76,7 +84,7 @@ export const PRODUCTS_CATALOG: ProductItem[] = [
     tagline: 'Bandeirolas personalizadas, quadros 3D e caixinhas',
     description: 'Decoração completa e coordenada com varal de bandeirolas com o nome da aniversariante, molduras/quadros 3D de papel para parede, Caixas Milk com laço rosa, Caixas Cone e forminhas de docinhos temáticas.',
     minQuantity: 1,
-    image: '/src/assets/images/kit_ursinhos_carinhosos_real_1790978757196.jpg',
+    image: kitUrsinhosImg,
     badge: 'Festa Completa',
     dimensions: 'Kit completo coordenado para mesa e parede',
     paperType: 'Offset 180g + papéis especiais para scrap festa',

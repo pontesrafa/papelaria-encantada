@@ -1,6 +1,6 @@
 import React from 'react';
 import { MessageCircle, ArrowDown } from 'lucide-react';
-import { STORE_PHONE, STORE_PHONE_DISPLAY, LOGO_URL } from '../data/products';
+import { STORE_PHONE, STORE_PHONE_DISPLAY, LOGO_URL, HERO_FEATURED_IMAGE } from '../data/products';
 
 export const HeroSection: React.FC = () => {
   const whatsAppUrl = `https://wa.me/${STORE_PHONE}?text=${encodeURIComponent(
@@ -75,7 +75,7 @@ export const HeroSection: React.FC = () => {
           <div className="lg:col-span-5">
             <div className="relative aspect-4/3 rounded-2xl overflow-hidden bg-stone-100 border border-stone-200 shadow-sm">
               <img
-                src="/src/assets/images/caixa_milk_magali_real_1790978722015.jpg"
+                src={HERO_FEATURED_IMAGE}
                 alt="Caixa Milk de Luxo tema Magali produzida pela Papelaria Encantada"
                 className="w-full h-full object-cover"
                 referrerPolicy="no-referrer"
